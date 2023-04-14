@@ -19,6 +19,15 @@ if (veiculo == "trem" || veiculo == "metrô") {
 }
 
 let nota = prompt("Nos ajude a melhorar! Escreva uma nota de 0 a 10")
+ rm551104
+let opiniao = prompt("Caso queira, conte para a gente como foi sua experiência")
+
+// Exibindo as informações recebidas no console
+console.log(nome + " da região " + regiao + ", utiliza " + veiculo + " da linha/frota " + linha + " " + frota + ". E nos deu nota: " + nota + ". E escreveu: " + opiniao);
+
+})
+// Adicionando eventos e informações ao tópicos de navegação (div)
+
 
 let opiniao = prompt("Caso queira, conte para a gente como foi sua experiência")
 
@@ -39,6 +48,7 @@ console.log(nome + " da região " + regiao + ", utiliza " + veiculo + " da linha
 
 // Adicionando eventos e informações ao tópicos de navegação (div)
 
+ main
 var b1Element = document.getElementById("nós")
 
 b1Element.addEventListener("click", function(){
@@ -46,12 +56,18 @@ b1Element.addEventListener("click", function(){
     b1Element.style.color = "brown"
 })
 
+
+
+ 
 var b2Element = document.getElementById("sus")
 
 b2Element.addEventListener("click", function(){
     alert("Com a sustentabilidade, podemos suprir as necessidades atuais sem prejudicar o meio ambiente e as futuras gerações. A partir do conceito de desenvolvimento sustentável, pesquisamos formas de aprimorar as técnicas atuais para utilizar dos recursos disponíveis, tendo em consideração a preservação do planeta.") 
     b2Element.style.color = "brown"
 })
+ 
+
+
 
 var b3Element = document.getElementById("tech")
 
@@ -60,6 +76,9 @@ b3Element.addEventListener("click", function(){
     b3Element.style.color = "brown"
 })
 
+
+
+ 
 var b4Element = document.getElementById("prob")
 
 b4Element.addEventListener("click", function(){
@@ -81,11 +100,15 @@ b6Element.addEventListener("click", function(){
     b6Element.style.color = "brown"
 
 })
+
+
+})
 //finalizando atribuições
 
 
 })
 
 })
+
 
 
