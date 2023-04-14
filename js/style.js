@@ -44,3 +44,9 @@ b3Element.addEventListener("click", function(){
     alert("A tecnologia possui um papel importante na sustentabilidade. Podemos usufruir deste recurso para monitoramento do consumo de determinados recursos e pesquisar formas de preservação através da necessidade do usuário. Alguns exemplos da tecnologia na mundo sustentavel são: placas solares, lampadas sensoriais.")
     b3Element.style.color = "brown"
 })
+var b4Element = document.getElementById("prob")
+
+b4Element.addEventListener("click", function(){
+    alert("São Paulo se caracteriza como uma cidade com alta demanda de transportes públicos, sendo estes os responsáveis por 75% da poluição sonora e liberação de gases tóxicos a atmosfera. Como podemos diminuir a poluição causada pelos meios de transporte? Tendo em mente a alta procura e o baixo investimento em tecnologia e pesquisa para adaptação do produto. Nada melhor do que ouvir o usuário do produto, não é mesmo?") 
+    b4Element.style.color = "brown"
+})
