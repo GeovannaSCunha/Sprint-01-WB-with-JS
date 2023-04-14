@@ -19,16 +19,26 @@ if (veiculo == "trem" || veiculo == "metrô") {
 }
 
 let nota = prompt("Nos ajude a melhorar! Escreva uma nota de 0 a 10")
+
+let opiniao = prompt("Caso queira, conte para a gente como foi sua experiência")
+
+// exibindo as informações recebidas no console
+
 let opiniao = prompt("Caso queira, conte para a gente como foi sua experiência.")
 let opiniao = prompt("Caso queira, conte para a gente como foi sua experiência")
 
 
 // Exibindo as informações recebidas no console
+
 console.log(nome + " da região " + regiao + ", utiliza " + veiculo + " da linha/frota " + linha + " " + frota + ". E nos deu nota: " + nota + ". E escreveu: " + opiniao);
 
 })
 
+
+// adicionando eventos e informações ao tópicos de navegação (div)
+
 // Adicionando eventos e informações ao tópicos de navegação (div)
+
 var b1Element = document.getElementById("nós")
 
 b1Element.addEventListener("click", function(){
@@ -71,6 +81,11 @@ b6Element.addEventListener("click", function(){
     b6Element.style.color = "brown"
 
 })
+//finalizando atribuições
+
 
 })
+
+})
+
 
