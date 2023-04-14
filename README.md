@@ -8,4 +8,4 @@ Lana Giulia Auada Leite – RM 551143
 
 Mirella de Rossi Imenez – RM 97990 
 
-LINK PARA O REPOSITÓRIO: https://github.com/GeovannaSCunha/Sprint-01-WB-with-JS
+LINK PARA O REPOSITÓRIO: https://github.com/GeovannaSCunha/Sprint-01-WB-with-JS !!
