@@ -56,3 +56,9 @@ b5Element.addEventListener("click", function(){
     alert("Para melhoria da experiência do usuário, nossa plataforma irá disponibilizar as linhas de trem, metrô e ônibus na cidade São Paulo. O usuário terá livre acesso a estas informações e poderá publicar em tempo real, sua opinião sobre o meio que está utilizando, seja sugestões de melhoria, reclamações e elogios. Está proposta foi planejada com o intuito de acolher a população e suas necessidades, de forma que as grandes empresas com investimento em sustentabilidade e qualidade de vida, sejam capazes de implementar novos projetos e melhorias naqueles já existentes.") 
     b5Element.style.color = "brown"
 })
+var b6Element = document.getElementById("clie")
+
+b6Element.addEventListener("click", function(){
+    alert("IBM Brasil - International Business Machines Projeto de Mapeamento em São paulo.") 
+    b6Element.style.color = "brown"
+})
