@@ -50,3 +50,9 @@ b4Element.addEventListener("click", function(){
     alert("São Paulo se caracteriza como uma cidade com alta demanda de transportes públicos, sendo estes os responsáveis por 75% da poluição sonora e liberação de gases tóxicos a atmosfera. Como podemos diminuir a poluição causada pelos meios de transporte? Tendo em mente a alta procura e o baixo investimento em tecnologia e pesquisa para adaptação do produto. Nada melhor do que ouvir o usuário do produto, não é mesmo?") 
     b4Element.style.color = "brown"
 })
+var b5Element = document.getElementById("sol")
+
+b5Element.addEventListener("click", function(){
+    alert("Para melhoria da experiência do usuário, nossa plataforma irá disponibilizar as linhas de trem, metrô e ônibus na cidade São Paulo. O usuário terá livre acesso a estas informações e poderá publicar em tempo real, sua opinião sobre o meio que está utilizando, seja sugestões de melhoria, reclamações e elogios. Está proposta foi planejada com o intuito de acolher a população e suas necessidades, de forma que as grandes empresas com investimento em sustentabilidade e qualidade de vida, sejam capazes de implementar novos projetos e melhorias naqueles já existentes.") 
+    b5Element.style.color = "brown"
+})
