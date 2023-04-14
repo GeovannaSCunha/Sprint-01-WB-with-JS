@@ -32,3 +32,9 @@ b1Element.addEventListener("click", function(){
     alert("A SmarTech é uma start up focada na implementação da sustentabilidade no cotiadiano do usuário.Utilizamos da tecnologia para implementação de grandes projetos na cidade de São Paulo.") 
     b1Element.style.color = "brown"
 })
+var b2Element = document.getElementById("sus")
+
+b2Element.addEventListener("click", function(){
+    alert("Com a sustentabilidade, podemos suprir as necessidades atuais sem prejudicar o meio ambiente e as futuras gerações. A partir do conceito de desenvolvimento sustentável, pesquisamos formas de aprimorar as técnicas atuais para utilizar dos recursos disponíveis, tendo em consideração a preservação do planeta.") 
+    b2Element.style.color = "brown"
+})
