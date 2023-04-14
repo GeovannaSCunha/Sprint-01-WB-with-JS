@@ -17,6 +17,7 @@ if (veiculo == "trem" || veiculo == "metrô") {
 } else {
   alert("Verifique se escreveu a palavra correta e com os acentos corretos.")
 }
+
 let nota = prompt("Nos ajude a melhorar! Escreva uma nota de 0 a 10")
 let opiniao = prompt("Caso queira, conte para a gente como foi sua experiência")
 
