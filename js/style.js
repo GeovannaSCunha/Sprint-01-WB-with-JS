@@ -25,3 +25,6 @@ let opiniao = prompt("Caso queira, conte para a gente como foi sua experiência"
 console.log(nome + " da região " + regiao + ", utiliza " + veiculo + " da linha/frota " + linha + " " + frota + ". E nos deu nota: " + nota + ". E escreveu: " + opiniao);
 
 })
+
+// Adicionando eventos e informações ao tópicos de navegação (div)
+var b1Element = document.getElementById("nós")
