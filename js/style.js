@@ -38,3 +38,9 @@ b2Element.addEventListener("click", function(){
     alert("Com a sustentabilidade, podemos suprir as necessidades atuais sem prejudicar o meio ambiente e as futuras gerações. A partir do conceito de desenvolvimento sustentável, pesquisamos formas de aprimorar as técnicas atuais para utilizar dos recursos disponíveis, tendo em consideração a preservação do planeta.") 
     b2Element.style.color = "brown"
 })
+var b3Element = document.getElementById("tech")
+
+b3Element.addEventListener("click", function(){
+    alert("A tecnologia possui um papel importante na sustentabilidade. Podemos usufruir deste recurso para monitoramento do consumo de determinados recursos e pesquisar formas de preservação através da necessidade do usuário. Alguns exemplos da tecnologia na mundo sustentavel são: placas solares, lampadas sensoriais.")
+    b3Element.style.color = "brown"
+})
