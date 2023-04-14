@@ -32,3 +32,39 @@ var b1Element = document.getElementById("nós")
 b1Element.addEventListener("click", function(){
     alert("A SmarTech é uma start up focada na implementação da sustentabilidade no cotiadiano do usuário.Utilizamos da tecnologia para implementação de grandes projetos na cidade de São Paulo.") 
     b1Element.style.color = "brown"
+})
+
+var b2Element = document.getElementById("sus")
+
+b2Element.addEventListener("click", function(){
+    alert("Com a sustentabilidade, podemos suprir as necessidades atuais sem prejudicar o meio ambiente e as futuras gerações. A partir do conceito de desenvolvimento sustentável, pesquisamos formas de aprimorar as técnicas atuais para utilizar dos recursos disponíveis, tendo em consideração a preservação do planeta.") 
+    b2Element.style.color = "brown"
+})
+
+var b3Element = document.getElementById("tech")
+
+b3Element.addEventListener("click", function(){
+    alert("A tecnologia possui um papel importante na sustentabilidade. Podemos usufruir deste recurso para monitoramento do consumo de determinados recursos e pesquisar formas de preservação através da necessidade do usuário. Alguns exemplos da tecnologia na mundo sustentavel são: placas solares, lampadas sensoriais.")
+    b3Element.style.color = "brown"
+})
+
+var b4Element = document.getElementById("prob")
+
+b4Element.addEventListener("click", function(){
+    alert("São Paulo se caracteriza como uma cidade com alta demanda de transportes públicos, sendo estes os responsáveis por 75% da poluição sonora e liberação de gases tóxicos a atmosfera. Como podemos diminuir a poluição causada pelos meios de transporte? Tendo em mente a alta procura e o baixo investimento em tecnologia e pesquisa para adaptação do produto. Nada melhor do que ouvir o usuário do produto, não é mesmo?") 
+    b4Element.style.color = "brown"
+})
+
+var b5Element = document.getElementById("sol")
+
+b5Element.addEventListener("click", function(){
+    alert("Para melhoria da experiência do usuário, nossa plataforma irá disponibilizar as linhas de trem, metrô e ônibus na cidade São Paulo. O usuário terá livre acesso a estas informações e poderá publicar em tempo real, sua opinião sobre o meio que está utilizando, seja sugestões de melhoria, reclamações e elogios. Está proposta foi planejada com o intuito de acolher a população e suas necessidades, de forma que as grandes empresas com investimento em sustentabilidade e qualidade de vida, sejam capazes de implementar novos projetos e melhorias naqueles já existentes.") 
+    b5Element.style.color = "brown"
+})
+
+var b6Element = document.getElementById("clie")
+
+b6Element.addEventListener("click", function(){
+    alert("IBM Brasil - International Business Machines Projeto de Mapeamento em São paulo.") 
+    b6Element.style.color = "brown"
+})
