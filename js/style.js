@@ -28,3 +28,7 @@ console.log(nome + " da região " + regiao + ", utiliza " + veiculo + " da linha
 
 // Adicionando eventos e informações ao tópicos de navegação (div)
 var b1Element = document.getElementById("nós")
+
+b1Element.addEventListener("click", function(){
+    alert("A SmarTech é uma start up focada na implementação da sustentabilidade no cotiadiano do usuário.Utilizamos da tecnologia para implementação de grandes projetos na cidade de São Paulo.") 
+    b1Element.style.color = "brown"
